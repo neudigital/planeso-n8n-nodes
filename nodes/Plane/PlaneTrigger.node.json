@@ -1,0 +1,14 @@
+{
+	"node": "n8n-nodes-plane.planeTrigger",
+	"nodeVersion": "1.0",
+	"codex": {
+		"categories": ["Productivity"],
+		"resources": {
+			"primaryDocumentation": [
+				{
+					"url": "https://developers.plane.so/dev-tools/intro-webhooks"
+				}
+			]
+		}
+	}
+}

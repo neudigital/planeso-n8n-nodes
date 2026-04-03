@@ -37,10 +37,12 @@
 			"dist/credentials/PlaneApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/Plane/Plane.node.js"
+			"dist/nodes/Plane/Plane.node.js",
+			"dist/nodes/Plane/PlaneTrigger.node.js"
 		]
 	},
 	"devDependencies": {
+		"@types/node": "^20.19.0",
 		"@eslint/js": "^10.0.1",
 		"@n8n/node-cli": "*",
 		"eslint": "9.39.4",
@@ -51,5 +53,8 @@
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"
+	},
+	"dependencies": {
+		"n8n-nodes-plane": "file:test/n8n-nodes-plane-0.1.0.tgz"
 	}
 }
