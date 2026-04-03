@@ -1,0 +1,19 @@
+{
+	"node": "n8n-nodes-plane",
+	"nodeVersion": "1.0",
+	"codex": {
+		"categories": ["Productivity"],
+		"resources": {
+			"credentialDocumentation": [
+				{
+					"url": "https://developers.plane.so/api-reference/introduction"
+				}
+			],
+			"primaryDocumentation": [
+				{
+					"url": "https://developers.plane.so/api-reference/introduction"
+				}
+			]
+		}
+	}
+}

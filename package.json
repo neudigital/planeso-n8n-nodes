@@ -1,19 +1,22 @@
 {
-	"name": "n8n-nodes-<...>",
+	"name": "n8n-nodes-plane",
 	"version": "0.1.0",
-	"description": "",
+	"description": "n8n community nodes for Plane.so (projects, work items, cycles, and full REST API coverage)",
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://github.com/planeso/planeso-n8n-nodes#readme",
 	"keywords": [
-		"n8n-community-node-package"
+		"n8n-community-node-package",
+		"plane",
+		"plane.so",
+		"project-management"
 	],
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "planeso-n8n-nodes",
+		"email": "planeso-n8n-nodes@users.noreply.github.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/<...>/n8n-nodes-<...>.git"
+		"url": "https://github.com/planeso/planeso-n8n-nodes.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
@@ -31,17 +34,17 @@
 		"n8nNodesApiVersion": 1,
 		"strict": true,
 		"credentials": [
-			"dist/credentials/GithubIssuesApi.credentials.js",
-			"dist/credentials/GithubIssuesOAuth2Api.credentials.js"
+			"dist/credentials/PlaneApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/GithubIssues/GithubIssues.node.js",
-			"dist/nodes/Example/Example.node.js"
+			"dist/nodes/Plane/Plane.node.js"
 		]
 	},
 	"devDependencies": {
+		"@eslint/js": "^10.0.1",
 		"@n8n/node-cli": "*",
 		"eslint": "9.39.4",
+		"n8n-workflow": "*",
 		"prettier": "3.8.1",
 		"release-it": "19.2.4",
 		"typescript": "5.9.3"
